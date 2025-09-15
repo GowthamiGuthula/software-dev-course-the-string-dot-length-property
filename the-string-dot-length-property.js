@@ -39,4 +39,55 @@ console.log (stringTwo + "  length is : "+lengthTwo);
 lengthThree = stringThree.length;
 console.log (stringThree + "  length is : "+lengthThree);
 
+console.log("To-Do List: \n- Task Status\n- Clean Done\n- Code In Progress\n- Relax Pending");
 
+console.log("Heart Symbol: \u2665");
+console.log("Greetings:\nHello (English)\nHola (Spanish)\n\u3088\u3046\u3053\u305d (Japanese)");
+
+console.log("Menu:\nPizza\t\u{1F355}\nBurger\tu1F354\nSushi\t\u1F363");
+
+
+console.log("Receipt:\nBook\tPrice\n1984\t$9.99\nDune\t$14.99\nTotal\t$24.98")
+
+let singleQuoteString  = "It's my birthday!";
+console.log(singleQuoteString );
+
+let doubleQuoteString  = 'She said, "JavaScript is fun!"';
+console.log(doubleQuoteString );
+
+
+let combinedQuoteString   = "He said, \"It's time to learn JavaScript!\"";
+console.log(combinedQuoteString );
+
+let bothQuoteString    = "The instructor said, \"Don't forget to practice!\"";
+console.log(bothQuoteString );
+
+let name = "John";
+let age = "78";
+let greeting = `Hello, my name is ${name} and I am ${age} years old.`
+console.log (greeting);
+
+let shoppingList  = `Shopping List:
+- Apples
+- Bread
+- Milk
+- Eggs`
+console.log (shoppingList);
+
+let cName = "Ray"
+let pName = "Apples";
+let qty = 5;
+let total = (2 * qty).toString();
+
+let invoice = `Invoice:
+Customer: ${cName}
+Product: ${pName}
+Quantity: ${qty}
+Total: ${total}`
+console.log (invoice);
+
+let a = 5;
+let b = 3;
+let c = a+b;
+var expressionResult = 'The result of ${a} + ${b} is ${c}.'
+console.log (expressionResult);
